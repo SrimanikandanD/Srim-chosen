@@ -1,6 +1,6 @@
 # Srim-Chosen
 1.Webview android dropdown with search jquery
-2.Bootstrap Jquery.
+2.HTML, CSS, Bootstrap, Jquery.
 
 Version 1.0
 
