@@ -54,13 +54,13 @@ function modal_load(id) {
 
     var modal = '<div id="srim_Modal_' + id + '" class="modal fade" role="dialog">\n\
     <div class="modal-dialog">\n\
-    <div class="modal-content">\n\
-    <div class="modal-header">\n\
+    <div class="modal-content srim_modal_content">\n\
+    <div class="modal-header srim_modal_header">\n\
     <div class="col-md-offset-2 col-md-8">\n\
     <input type="text" class="form-control srim_dd_search_box" data-val="' + id + '" id="srim_drop_down_search_box_' + id + '" placeholder="Search">\n\
     </div>\n\
     </div>\n\
-    <div class="modal-body" >\n\
+    <div class="modal-body srim_modal" >\n\
     <table class="table table-border table-hover srim_drop_down_table" data-id="' + id + '">\n\
      <tbody id="srim_drop_down_Table_' + id + '" class="srim_drop_down_tbody" style="display: block;max-height: 420px;overflow-y: scroll;">\n\
     </tbody>\n\
