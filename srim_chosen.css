@@ -1,16 +1,12 @@
-Srim Chosen
+/*Srim Chosen*/
+/*Version 1.0*/
 
-.modal-header {
+.modal-header.srim_modal_header {
     padding: 15px;
     border-bottom: 0px; 
 }
-tr {
-    border: 1px solid #cccccc;
-}
-.table-hover>tbody>tr:hover {
-    background-color: #2196f3;
-    font-weight: 600;
-    color: white;
+.modal-body.srim_modal {
+    padding: 7px;
 }
 .modal-footer {
     padding: 15px;
@@ -18,6 +14,35 @@ tr {
     border-top: 1px solid #e5e5e5;
     background-color: #ecebec;
 }
+
+.srim_drop_down_table tbody tr {
+    border: 1px solid #cccccc;
+}
+
+.table-hover.srim_drop_down_table>tbody>tr:hover {
+    background-color: #2196f3;
+    font-weight: 600;
+    color: white;
+}
+
+.srim_drop_down_table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 6px;
+}
+
+.srim_drop_down_table>tbody {
+    display: block;
+    max-height: 420px !important;
+    overflow-y: scroll;
+}
+
+.srim_drop_down_table thead, .srim_drop_down_table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
 /* Scrollbar Styling */
 .srim_drop_down_tbody::-webkit-scrollbar {
     width: 4px;
@@ -35,14 +60,3 @@ tr {
     background: #b052e4; 
 }
 
-table tbody {
-    display: block;
-    max-height: 420px;
-    overflow-y: scroll;
-}
-
-table thead, table tbody tr {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-}
